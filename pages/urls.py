@@ -11,6 +11,6 @@ urlpatterns = [
     path('contactus/', views.ContactUs.as_view(), name='contactus'),
     path('account/', views.AccountPage.as_view(), name='accountpage'),
     path('login/',views.LoginPage.as_view(), name='login'),
-    path('register/',views.RegisterPage.as_view(), name='register'),
+    path('register/',views.RegisterView.as_view(), name='register'),
     path('wishlist/', views.WishlistPage.as_view(), name='wishlist'),
 ]
